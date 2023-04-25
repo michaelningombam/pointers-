@@ -1,13 +1,14 @@
-#include <stdio.h>
+ #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
-	int x=4;
-	int *p;
-	p=&x; 
-	printf("Value at address pointed by p: %d \n",*p);
-	printf("Value of x: %d \n",x);
-	printf("Address of x: %d \n",&x);
-	printf("Value of p: %d \n",p);
-	printf("Address of p: %d \n",&p);
-return 0;
+ int x=2;
+ int *p;
+ p=&x;
+ printf("\n %d value of variable", x);
+ printf("\n %d Value at address",*p);
+ printf("\n %d Value of pointer variable",p);
+ printf("\n %d address of pointer variable",&p);
+ printf("\n %d address of variable", &x);
+	
 }
